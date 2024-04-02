@@ -8,7 +8,7 @@ public class Splash extends JFrame implements Runnable {    // we could have ext
        Thread thread;
        
     Splash() {
-//        setSize(1200, 600);  // setting the size of the frame 
+//        setSize(1200, 600);  // setting the size of the frame
 //        setLocation(200, 100);   // to set the default location of the frame on startup
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/splash.jpg"));
 
@@ -21,7 +21,7 @@ public class Splash extends JFrame implements Runnable {    // we could have ext
         thread = new Thread(this);
         thread.start(); // start method internally calls run method;
 //        run(); // to make it behave like multithreaded, we have to call run outside the class defination
-        
+
     }
     
     
@@ -51,3 +51,5 @@ public class Splash extends JFrame implements Runnable {    // we could have ext
         }
     }
 }
+
+this is to test if this can be a good friend or a sister!!!!!!!!
