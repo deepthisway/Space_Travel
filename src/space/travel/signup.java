@@ -64,7 +64,9 @@ public class signup extends JFrame{
         create.setFont(new Font("Tahoma",Font.BOLD,14));
         create.setBounds(80,250,100,30);
 
-        HELLO
+        LLLL
+
+
 
 
 
