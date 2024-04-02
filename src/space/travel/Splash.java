@@ -52,4 +52,3 @@ public class Splash extends JFrame implements Runnable {    // we could have ext
     }
 }
 
-this is to test if this can be a good friend or a sister!!!!!!!!
