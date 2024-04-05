@@ -70,7 +70,7 @@ public class signup extends JFrame implements ActionListener {
 
 
         // Deep: for the back button. put it as line 67 in after creating back button;
-        create.addActionListener(this);
+//        create.addActionListener(this);
 
 
         setVisible(true);
