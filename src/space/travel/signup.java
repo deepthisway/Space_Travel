@@ -59,12 +59,11 @@ public class signup extends JFrame{
         tfanswer.setBorder(BorderFactory.createEmptyBorder());
         p1.add(tfanswer);
         JButton create=new JButton("Create");
-        create.setBackground(new Color("133,193,233"));
+        create.setBackground(new Color(133,193,233));
         create.setForeground(Color.white);
         create.setFont(new Font("Tahoma",Font.BOLD,14));
         create.setBounds(80,250,100,30);
 
-        LLLL
 
 
 
@@ -77,7 +76,7 @@ public class signup extends JFrame{
 
 
 
-    public static void main(String[] args){
+    public static void .main(String[] args){
     new signup();
 
     }
