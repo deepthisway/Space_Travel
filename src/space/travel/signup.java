@@ -2,9 +2,10 @@ package space.travel;
 import javax.swing.*;
 import javax.swing.text.html.parser.ContentModel;
 import java.awt.*;
+import java.awt.event.*;
 
-public class signup extends JFrame{
-
+public class signup extends JFrame implements ActionListener {
+    JButton create, back;
     signup() {
         setBounds(350,200,900,360);
         getContentPane().setBackground(Color.WHITE);
@@ -58,25 +59,32 @@ public class signup extends JFrame{
         tfanswer.setBounds(190,180,180,25);
         tfanswer.setBorder(BorderFactory.createEmptyBorder());
         p1.add(tfanswer);
-        JButton create=new JButton("Create");
+
+        create=new JButton("Create");
         create.setBackground(new Color(133,193,233));
         create.setForeground(Color.white);
         create.setFont(new Font("Tahoma",Font.BOLD,14));
         create.setBounds(80,250,100,30);
+        create.addActionListener(this);
+        p1.add(create);
 
 
-
-
-
-
+        // Deep: for the back button. put it as line 67 in after creating back button;
+//        create.addActionListener(this);
 
 
         setVisible(true);
     }
 
+    public void actionPerformed(ActionEvent ae) {
+        if(ae.getSource() == create) {
 
-
-    public static void .main(String[] args){
+        } else if (ae.getSource() == back)  {
+            setVisible(false);
+            new Login();
+        }
+    }
+    public static void main(String[] args){
     new signup();
 
     }
